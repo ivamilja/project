@@ -47,6 +47,7 @@ public class CacheConfiguration {
             cm.createCache(com.mycompany.myapp.domain.OnlineOrder.class.getName(), jcacheConfiguration);
             cm.createCache(com.mycompany.myapp.domain.Employee.class.getName(), jcacheConfiguration);
             cm.createCache(com.mycompany.myapp.domain.OnlineOrderItem.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mycompany.myapp.domain.DeliveryOrder.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

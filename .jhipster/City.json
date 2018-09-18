@@ -1,0 +1,28 @@
+
+{
+"fields": [
+    {
+        "fieldName": "name",
+        "fieldType": "String",
+        "fieldValidateRules": [
+            "required",
+            "minlength"
+        ],
+        "fieldValidateRulesMinlength": "2"
+    },
+    {
+        "fieldName": "zipcode",
+        "fieldType": "String",
+        "fieldValidateRules": [
+            "required"
+        ]
+    }
+],
+"changelogDate": "20180831102104",
+"dto": "no",
+"searchEngine": false,
+"service": "no",
+"entityTableName": "city",
+"jpaMetamodelFiltering": false,
+"pagination": "no"
+}

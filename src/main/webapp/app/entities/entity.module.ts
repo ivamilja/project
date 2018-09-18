@@ -2,6 +2,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { NoviTypeModule } from './type/type.module';
 import { NoviArticleModule } from './article/article.module';
+import { NoviCityModule } from './city/city.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -9,6 +10,7 @@ import { NoviArticleModule } from './article/article.module';
     imports: [
         NoviTypeModule,
         NoviArticleModule,
+        NoviCityModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

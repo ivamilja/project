@@ -15,6 +15,7 @@
                 "position": "Position",
                 "onlineOrder": "Online Order",
                 "employee": "Employee",
+                "onlineOrderItem": "Online Order Item",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

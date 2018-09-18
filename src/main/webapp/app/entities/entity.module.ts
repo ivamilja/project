@@ -4,6 +4,8 @@ import { NoviTypeModule } from './type/type.module';
 import { NoviArticleModule } from './article/article.module';
 import { NoviCityModule } from './city/city.module';
 import { NoviClientModule } from './client/client.module';
+import { NoviVehicleModule } from './vehicle/vehicle.module';
+import { NoviPositionModule } from './position/position.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -13,6 +15,8 @@ import { NoviClientModule } from './client/client.module';
         NoviArticleModule,
         NoviCityModule,
         NoviClientModule,
+        NoviVehicleModule,
+        NoviPositionModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
